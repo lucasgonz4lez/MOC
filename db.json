@@ -1,0 +1,211 @@
+{
+  "incidencias": [
+    {
+      "id": 1,
+      "usuario": 1,
+      "titulo": "No funciona la impresora",
+      "descripcion": "La impresora no responde al enviar trabajos desde las computadoras del laboratorio.",
+      "categoria": "Hardware",
+      "nivel_urgencia": "Media",
+      "estado": "Pendiente",
+      "ubicacion": "A301",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 2,
+      "usuario": 2,
+      "titulo": "Error de conexion Wi-Fi",
+      "descripcion": "Varios estudiantes reportan que no pueden conectarse a la red Wi-Fi.",
+      "categoria": "Conectividad",
+      "nivel_urgencia": "Alta",
+      "estado": "Pendiente",
+      "ubicacion": "A302",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 3,
+      "usuario": 3,
+      "titulo": "Proyector del aula magna no enciende",
+      "descripcion": "El proyector no muestra imagen al conectarlo a cualquier computadora.",
+      "categoria": "Hardware",
+      "nivel_urgencia": "Alta",
+      "estado": "Pendiente",
+      "ubicacion": "A301",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 4,
+      "usuario": 4,
+      "titulo": "Computadora con pantalla azul",
+      "descripcion": "Una computadora muestra BSOD constantemente al iniciar.",
+      "categoria": "Hardware",
+      "nivel_urgencia": "Alta",
+      "estado": "En Curso",
+      "ubicacion": "B104",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 5,
+      "usuario": 5,
+      "titulo": "Software antivirus no actualizado",
+      "descripcion": "El antivirus en varias maquinas no se ha actualizado en las ultimas semanas.",
+      "categoria": "Software",
+      "nivel_urgencia": "Media",
+      "estado": "Pendiente",
+      "ubicacion": "B104",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 6,
+      "usuario": 6,
+      "titulo": "Problemas con el sistema de asistencia",
+      "descripcion": "El software de control de asistencia no permite registrar nuevas entradas.",
+      "categoria": "Software",
+      "nivel_urgencia": "Alta",
+      "estado": "Pendiente",
+      "ubicacion": "B105",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 7,
+      "usuario": 7,
+      "titulo": "Fallo en el servidor de archivos",
+      "descripcion": "Algunos archivos compartidos no se pueden abrir o guardar.",
+      "categoria": "Infraestructura",
+      "nivel_urgencia": "Alta",
+      "estado": "En Curso",
+      "ubicacion": "B205",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 8,
+      "usuario": 8,
+      "titulo": "Teclado y raton sin respuesta",
+      "descripcion": "Los perifericos de todas las computadoras del aula no responden.",
+      "categoria": "Hardware",
+      "nivel_urgencia": "Media",
+      "estado": "Pendiente",
+      "ubicacion": "A303",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 9,
+      "usuario": 9,
+      "titulo": "Pantalla tactil falla",
+      "descripcion": "La pantalla tactil no registra los toques correctamente.",
+      "categoria": "Hardware",
+      "nivel_urgencia": "Baja",
+      "estado": "Cerrada",
+      "ubicacion": "B105",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    },
+    {
+      "id": 10,
+      "usuario": 10,
+      "titulo": "Correo institucional con errores de envio",
+      "descripcion": "Algunos usuarios no pueden enviar correos desde su cuenta del instituto.",
+      "categoria": "Software",
+      "nivel_urgencia": "Media",
+      "estado": "Pendiente",
+      "ubicacion": "B205",
+      "fecha_registro": "2025-10-21",
+      "comentarios": []
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Ana",
+      "email": "ana.lopez@educastur.org",
+      "password": "$2b$10$2yLRJuUBnSZo1xIZAHnONeo3htakqa02U7HVnMLS2T0bDc/kIUhDW",
+      "rol": { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos",
+      "email": "carlos.perez@educastur.org",
+      "password": "$2b$10$1162UW9UL08k5sdNGieOXeXHtzlISLpe0ya885y/iuISFuBJP9tWW",
+      "rol": { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 3,
+      "nombre": "Maria",
+      "email": "maria.garcia@educastur.org",
+      "password": "$2b$10$5LTA174IhJgysOfpV8IR9OPSmW9TMhCo5gyflLTv52Gu7BA.vK1.a",
+      "rol": { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 4,
+      "nombre": "Luis",
+      "email": "luis.torres@educastur.org",
+      "password": "$2b$10$IP.VKxaHra5VzPt9G641B.oA3hp06dZqqG5M4ngajJwkhpJpo8ite",
+      "rol": { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 5,
+      "nombre": "Sofia",
+      "email": "sofia.martinez@educastur.org",
+      "password": "$2b$10$ebiniRbZtn/iY8VClDQIcu/6NWTMROnnz6ku4g6U2/kt9BwcbEFgy",
+      "rol": { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 6,
+      "nombre": "Jorge",
+      "email": "jorge.fernandez@educastur.org",
+      "password": "$2b$10$avGM0AaEWADFEq/ob4JnVe2mUpRcZCVD8b8JrjajgT35zyJzvPMbC",
+      "rol": { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 7,
+      "nombre": "Elena",
+      "email": "elena.sanchez@educastur.org",
+      "password": "$2b$10$s6R66fQ2iHMZDSO0jUQGT.8cTOl.zH2W9KgPwb3aWiU0aWN0lhwn6",
+      "rol": { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 8,
+      "nombre": "Miguel",
+      "email": "miguel.ramirez@educastur.org",
+      "password": "$2b$10$p6ds9beCOI6WW4SgKWx0tuvT/R1bqgHYS19XxK3dV3OTpP6q3Jbii",
+      "rol": { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 9,
+      "nombre": "Patricia",
+      "email": "patricia.gomez@educastur.org",
+      "password": "$2b$10$o8n9H8fgPx6bwphtcwJAeehBrHLG4b.g0LekJGkALZcAhoEyyTEJy",
+      "rol": { "id": 2, "nombre_rol": "admin", "descripcion": "Administrador del sistema con permisos totales" },
+      "fecha_registro": "2025-10-21"
+    },
+    {
+      "id": 10,
+      "nombre": "David",
+      "email": "david.ruiz@educastur.org",
+      "password": "$2b$10$rP/NkvHezklL/5jpumr5De9j1jTivhdRBxc3GQVSNHz5s/2ZNs76u",
+      "rol": { "id": 2, "nombre_rol": "admin", "descripcion": "Administrador del sistema con permisos totales" },
+      "fecha_registro": "2025-10-21"
+    }
+  ],
+  "roles": [
+    { "id": 1, "nombre_rol": "comun", "descripcion": "Usuario regular del sistema" },
+    { "id": 2, "nombre_rol": "admin", "descripcion": "Administrador del sistema con permisos totales" }
+  ],
+  "comentarios": []
+}
