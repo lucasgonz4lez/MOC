@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 class Footer extends React.Component {
   render() {
@@ -31,43 +30,6 @@ class Footer extends React.Component {
               <div className="d-flex flex-column flex-md-row justify-content-between align-items-center border-top border-secondary pt-4">
                 <div className="text-muted small mb-3 mb-md-0">
                   {currentYear} Sistema de Gestión de Incidencias. Todos los derechos reservados.
-                </div>
-                
-                <div className="d-flex gap-3">
-                  <a 
-                    href="https://github.com/" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="text-white fs-5"
-                    aria-label="GitHub"
-                  >
-                    <FaGithub />
-                  </a>
-                  <a 
-                    href="https://linkedin.com/" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="text-white fs-5"
-                    aria-label="LinkedIn"
-                  >
-                    <FaLinkedin />
-                  </a>
-                  <a 
-                    href="https://twitter.com/" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="text-white fs-5"
-                    aria-label="Twitter"
-                  >
-                    <FaTwitter />
-                  </a>
-                  <a 
-                    href="mailto:soporte@ejemplo.com" 
-                    className="text-white fs-5"
-                    aria-label="Email"
-                  >
-                    <FaEnvelope />
-                  </a>
                 </div>
               </div>
             </div>

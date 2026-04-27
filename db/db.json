@@ -6,7 +6,7 @@
         "id": 1,
         "nombre": "Ana",
         "email": "ana.lopez@educastur.org",
-        "password": "$2y$10$paOaxwKhEBC4W/cVeG85puc9W/hoMlzquXQ/6hrMD6VdqIc/mEToq",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -29,7 +29,7 @@
         "id": 2,
         "nombre": "Carlos",
         "email": "carlos.perez@educastur.org",
-        "password": "$2y$10$L2gyx2oL8Gk6gYVukI.v2.63s7/jRtQQZNS4dq3QYPLfVj8zUVXI2",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -52,7 +52,7 @@
         "id": 3,
         "nombre": "Maria",
         "email": "maria.garcia@educastur.org",
-        "password": "$2y$10$OsAG7turiy1u.Hqt7JHNzOP6.x1u3RPn0eVndlAGWRx2Vg8iU.lKG",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -75,7 +75,7 @@
         "id": 4,
         "nombre": "Luis",
         "email": "luis.torres@educastur.org",
-        "password": "$2y$10$gU1byqj/EyDQbUIFaV1b0.vKiCkE3oZZ1BxfVCSxO7z8Y/QIhqmo6",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -98,7 +98,7 @@
         "id": 5,
         "nombre": "Sofia",
         "email": "sofia.martinez@educastur.org",
-        "password": "$2y$10$LDI/t9HTHeLtwm61nNej/OYw0BZq0DQi6xgDem5GxRggHgxuSOJ7e",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -121,7 +121,7 @@
         "id": 6,
         "nombre": "Jorge",
         "email": "jorge.fernandez@educastur.org",
-        "password": "$2y$10$lKU1gyEGdH/h3DAD97jppuOYCrHVte/X5G85yk7AyYGG1ggRCHgTm",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -144,7 +144,7 @@
         "id": 7,
         "nombre": "Elena",
         "email": "elena.sanchez@educastur.org",
-        "password": "$2y$10$SNm8N6v.ps3GZ.jR6hHLR./vHeqNw3SwzQpvLrEi8X7IGIz1/3KOy",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -167,7 +167,7 @@
         "id": 8,
         "nombre": "Miguel",
         "email": "miguel.ramirez@educastur.org",
-        "password": "$2y$10$nAZ8jhFEB93.qT45L.ucz.au9gfQ6yayQPjYiMU8jJW8Sa5UQ577i",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -190,7 +190,7 @@
         "id": 9,
         "nombre": "Patricia",
         "email": "patricia.gomez@educastur.org",
-        "password": "$2y$10$2xnlupLIDZi4asqQTFUfu.GKWe/Hy8C07R1.CyvVrUq2JBjOoiiZC",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 2,
           "nombre_rol": "admin",
@@ -213,7 +213,7 @@
         "id": 10,
         "nombre": "David",
         "email": "david.ruiz@educastur.org",
-        "password": "$2y$10$WM.h8tqMhvbc//bQasC/0.l/xeQXEs83lcbvFnPzmbUwr5jWcShyW",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 2,
           "nombre_rol": "admin",
@@ -236,6 +236,7 @@
         "id": 9,
         "nombre": "Patricia",
         "email": "patricia.gomez@educastur.org",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
         "rol": {
           "id": 2,
           "nombre_rol": "admin",
@@ -249,10 +250,23 @@
       "nivel_urgencia": "Alta",
       "fecha_registro": "2025-11-19",
       "estado": "Abierta",
-      "ubicacion": "a302"
+      "ubicacion": "a302",
+      "comentarios": []
     },
     {
-      "usuario": 1,
+      "id": 12,
+      "usuario": {
+        "id": 1,
+        "nombre": "Ana",
+        "email": "ana.lopez@educastur.org",
+        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "rol": {
+          "id": 1,
+          "nombre_rol": "comun",
+          "descripcion": "Usuario regular del sistema"
+        },
+        "fecha_registro": "2025-10-21"
+      },
       "titulo": "Cadaver",
       "descripcion": "se ha muerto alguien",
       "categoria": "Otro",
@@ -260,8 +274,7 @@
       "fecha_registro": "2025-12-12",
       "estado": "Abierta",
       "ubicacion": "no se sabe",
-      "comentarios": "",
-      "id": 12
+      "comentarios": []
     }
   ],
   "users": [
@@ -269,7 +282,7 @@
       "id": 1,
       "nombre": "Ana",
       "email": "ana.lopez@educastur.org",
-      "password": "$2y$10$paOaxwKhEBC4W/cVeG85puc9W/hoMlzquXQ/6hrMD6VdqIc/mEToq",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -281,7 +294,7 @@
       "id": 2,
       "nombre": "Carlos",
       "email": "carlos.perez@educastur.org",
-      "password": "$2y$10$L2gyx2oL8Gk6gYVukI.v2.63s7/jRtQQZNS4dq3QYPLfVj8zUVXI2",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -293,7 +306,7 @@
       "id": 3,
       "nombre": "Maria",
       "email": "maria.garcia@educastur.org",
-      "password": "$2y$10$OsAG7turiy1u.Hqt7JHNzOP6.x1u3RPn0eVndlAGWRx2Vg8iU.lKG",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -305,7 +318,7 @@
       "id": 4,
       "nombre": "Luis",
       "email": "luis.torres@educastur.org",
-      "password": "$2y$10$gU1byqj/EyDQbUIFaV1b0.vKiCkE3oZZ1BxfVCSxO7z8Y/QIhqmo6",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -317,7 +330,7 @@
       "id": 5,
       "nombre": "Sofia",
       "email": "sofia.martinez@educastur.org",
-      "password": "$2y$10$LDI/t9HTHeLtwm61nNej/OYw0BZq0DQi6xgDem5GxRggHgxuSOJ7e",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -329,7 +342,7 @@
       "id": 6,
       "nombre": "Jorge",
       "email": "jorge.fernandez@educastur.org",
-      "password": "$2y$10$lKU1gyEGdH/h3DAD97jppuOYCrHVte/X5G85yk7AyYGG1ggRCHgTm",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -341,7 +354,7 @@
       "id": 7,
       "nombre": "Elena",
       "email": "elena.sanchez@educastur.org",
-      "password": "$2a$12$UK.ZtKon5qAHPipr/msmCu9mkAB12x7U9yzVPkqug0t5Tpu8U0GYS",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -353,7 +366,7 @@
       "id": 8,
       "nombre": "Miguel",
       "email": "miguel.ramirez@educastur.org",
-      "password": "$2y$10$nAZ8jhFEB93.qT45L.ucz.au9gfQ6yayQPjYiMU8jJW8Sa5UQ577i",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -365,7 +378,7 @@
       "id": 9,
       "nombre": "Patricia",
       "email": "patricia.gomez@educastur.org",
-      "password": "$2y$10$2xnlupLIDZi4asqQTFUfu.GKWe/Hy8C07R1.CyvVrUq2JBjOoiiZC",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 2,
         "nombre_rol": "admin",
@@ -377,7 +390,7 @@
       "id": 10,
       "nombre": "David",
       "email": "david.ruiz@educastur.org",
-      "password": "$2y$10$WM.h8tqMhvbc//bQasC/0.l/xeQXEs83lcbvFnPzmbUwr5jWcShyW",
+      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
       "rol": {
         "id": 2,
         "nombre_rol": "admin",

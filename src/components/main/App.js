@@ -15,6 +15,13 @@ function App() {
   const [usuario, setUsuario] = useState(null);
 
   useEffect(() => {
+  fetch(`${API}/users`)
+    .then(res => res.json())
+    .then(data => setUsuarios(data))
+    .catch(() => setErrorCarga('Error al cargar usuarios'));
+}, []);
+
+  useEffect(() => {
     if (!usuarios.length) return;
     const token = localStorage.getItem('authToken');
     if (!token) return;
@@ -26,21 +33,14 @@ function App() {
       localStorage.removeItem('authToken');
     }
   }, [usuarios]);
-
-useEffect(() => {
-  const obtenerUsuarioLogueado = () => {
-    const savedUser = localStorage.getItem('authToken');
-    if (savedUser) {
-      const decodedUser = jwtDecode(localStorage.getItem('authToken'));
-      console.log(decodedUser);
-      if (decodedUser) {
-        const user = usuarios.find((u) => u.email === decodedUser.email);
-        user ? setUsuario(user) : setUsuario(null);
-      }
-    }
-  };
-  obtenerUsuarioLogueado();
-}, [usuarios]);
+  
+  useEffect(() => {
+  if (!usuario) return;
+  fetch(`${API}/incidencias`, { headers: authHeaders })
+    .then(res => res.json())
+    .then(data => setIncidencias(data))
+    .catch(() => setErrorCarga('Error al cargar incidencias'));
+}, [usuario]);
 
   const authHeaders = {
     'Content-Type': 'application/json',
