@@ -56,7 +56,6 @@ useEffect(() => {
       });
       if (!res.ok) return alert(`Error ${res.status}: credenciales incorrectas`);
       const data = await res.json();
-      // Guardamos solo el token, no el objeto usuario completo
       localStorage.setItem('authToken', JSON.stringify(data.accessToken));
       const decoded = jwtDecode(data.accessToken);
       const usuarioEncontrado = usuarios.find(u => u.email === decoded.email);
