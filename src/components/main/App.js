@@ -5,6 +5,9 @@ import Form from '../Form.js';
 import Header from '../header/Header.js';
 import Footer from '../footer/Footer.js';
 import Login from '../login/Login.js';
+import { Routes, Route } from 'react-router-dom';
+import Menu from '../menu/Menu';
+import UserRoleManagement from '../userRolManager/UserRolManager.js';
 
 const API = 'http://localhost:3004';
 
@@ -15,32 +18,29 @@ function App() {
   const [usuario, setUsuario] = useState(null);
 
   useEffect(() => {
-  fetch(`${API}/users`)
-    .then(res => res.json())
-    .then(data => setUsuarios(data))
-    .catch(() => setErrorCarga('Error al cargar usuarios'));
-}, []);
+    const token = localStorage.getItem('authToken');
+    const headers = { 'Content-Type': 'application/json' };
+    if (token) headers.Authorization = `Bearer ${JSON.parse(token)}`;
+
+    fetch(`${API}/users`, { headers })
+      .then(res => res.json())
+      .then(data => setUsuarios(data))
+      .catch(() => setErrorCarga('Error al cargar usuarios'));
+  }, []);
 
   useEffect(() => {
-    if (!usuarios.length) return;
-    const token = localStorage.getItem('authToken');
-    if (!token) return;
-    try {
-      const decoded = jwtDecode(JSON.parse(token));
-      const usuarioEncontrado = usuarios.find(u => u.email === decoded.email);
-      if (usuarioEncontrado) setUsuario(usuarioEncontrado);
-    } catch {
-      localStorage.removeItem('authToken');
-    }
-  }, [usuarios]);
-  
-  useEffect(() => {
-  if (!usuario) return;
-  fetch(`${API}/incidencias`, { headers: authHeaders })
-    .then(res => res.json())
-    .then(data => setIncidencias(data))
-    .catch(() => setErrorCarga('Error al cargar incidencias'));
-}, [usuario]);
+    if (!usuario) return;
+    const token = JSON.parse(localStorage.getItem('authToken'));
+    fetch(`${API}/incidencias`, {
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      }
+    })
+      .then(res => res.json())
+      .then(data => setIncidencias(data))
+      .catch(() => setErrorCarga('Error al cargar incidencias'));
+  }, [usuario]);
 
   const authHeaders = {
     'Content-Type': 'application/json',
@@ -110,33 +110,23 @@ function App() {
             </div>
           ) : (
             <>
-              <h2 className="h3 mb-4 fw-bold">
-                Panel de Gestión de Incidencias
-                <span className="fs-6 fw-normal text-muted ms-2">
-                  Bienvenido, {usuario.nombre}
-                </span>
-              </h2>
-
+              <Menu usuarioLogueado={usuario} onLogout={onLogout} />
               {errorCarga && <div className="alert alert-danger">{errorCarga}</div>}
-
-              <div className="row g-4">
-                <div className="col-lg-7">
-                  <div className="card h-100 shadow-sm">
-                    <div className="card-body">
-                      <h3 className="h5 mb-4 fw-semibold">Listado de Incidencias</h3>
-                      <MiLista incidencias={incidencias} usuarios={usuarios} />
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-5">
-                  <div className="card h-100 shadow-sm">
-                    <div className="card-body">
-                      <h3 className="h5 mb-4 fw-semibold">Nueva Incidencia</h3>
-                      <Form agregarIncidencia={agregarIncidencia} />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <Routes>
+                <Route path="/" element={<h2 className="h3 mt-4 fw-bold">Bienvenido, {usuario.nombre}</h2>} />
+                <Route path="/incidencias" element={<MiLista incidencias={incidencias} usuarios={usuarios} />} />
+                <Route path="/registrar" element={<Form agregarIncidencia={agregarIncidencia} usuarioLogueado={usuario} />} />
+                {usuario.rol?.nombre_rol === 'admin' && (
+                  <Route path="/usuarios" element={
+                    <UserRoleManagement
+                      usuarios={usuarios}
+                      setUsuarios={setUsuarios}
+                      authHeaders={authHeaders}
+                      API={API}
+                    />
+                  } />
+                )}
+              </Routes>
             </>
           )}
         </div>

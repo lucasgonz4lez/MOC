@@ -27,7 +27,7 @@ class Form extends React.Component {
           </div>
 
           <div className="mb-3">
-            <label className="form-label fw-semibold">Usuario</label>
+            <label className="form-label fw-semibold">Usuario (email)</label>
             <input type="text" name="usuario" className="form-control" required />
           </div>
 

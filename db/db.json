@@ -6,7 +6,7 @@
         "id": 1,
         "nombre": "Ana",
         "email": "ana.lopez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -29,7 +29,7 @@
         "id": 2,
         "nombre": "Carlos",
         "email": "carlos.perez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -52,7 +52,7 @@
         "id": 3,
         "nombre": "Maria",
         "email": "maria.garcia@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -75,7 +75,7 @@
         "id": 4,
         "nombre": "Luis",
         "email": "luis.torres@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -98,7 +98,7 @@
         "id": 5,
         "nombre": "Sofia",
         "email": "sofia.martinez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -121,7 +121,7 @@
         "id": 6,
         "nombre": "Jorge",
         "email": "jorge.fernandez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -144,7 +144,7 @@
         "id": 7,
         "nombre": "Elena",
         "email": "elena.sanchez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -167,7 +167,7 @@
         "id": 8,
         "nombre": "Miguel",
         "email": "miguel.ramirez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -190,7 +190,7 @@
         "id": 9,
         "nombre": "Patricia",
         "email": "patricia.gomez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 2,
           "nombre_rol": "admin",
@@ -213,7 +213,7 @@
         "id": 10,
         "nombre": "David",
         "email": "david.ruiz@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 2,
           "nombre_rol": "admin",
@@ -236,7 +236,7 @@
         "id": 9,
         "nombre": "Patricia",
         "email": "patricia.gomez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 2,
           "nombre_rol": "admin",
@@ -259,7 +259,7 @@
         "id": 1,
         "nombre": "Ana",
         "email": "ana.lopez@educastur.org",
-        "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+        "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
         "rol": {
           "id": 1,
           "nombre_rol": "comun",
@@ -275,6 +275,18 @@
       "estado": "Abierta",
       "ubicacion": "no se sabe",
       "comentarios": []
+    },
+    {
+      "usuario": 9,
+      "titulo": "Pc roto",
+      "descripcion": "Ninguna",
+      "categoria": "Software",
+      "nivel_urgencia": "Alta",
+      "ubicacion": "B106",
+      "fecha_registro": "2026-05-25",
+      "estado": "Abierta",
+      "comentarios": "",
+      "id": 13
     }
   ],
   "users": [
@@ -282,7 +294,7 @@
       "id": 1,
       "nombre": "Ana",
       "email": "ana.lopez@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -294,7 +306,7 @@
       "id": 2,
       "nombre": "Carlos",
       "email": "carlos.perez@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -306,7 +318,7 @@
       "id": 3,
       "nombre": "Maria",
       "email": "maria.garcia@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -318,7 +330,7 @@
       "id": 4,
       "nombre": "Luis",
       "email": "luis.torres@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -330,7 +342,7 @@
       "id": 5,
       "nombre": "Sofia",
       "email": "sofia.martinez@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -342,7 +354,7 @@
       "id": 6,
       "nombre": "Jorge",
       "email": "jorge.fernandez@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -354,7 +366,7 @@
       "id": 7,
       "nombre": "Elena",
       "email": "elena.sanchez@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 1,
         "nombre_rol": "comun",
@@ -366,11 +378,11 @@
       "id": 8,
       "nombre": "Miguel",
       "email": "miguel.ramirez@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
-        "id": 1,
-        "nombre_rol": "comun",
-        "descripcion": "Usuario regular del sistema"
+        "id": 2,
+        "nombre_rol": "admin",
+        "descripcion": "Administrador del sistema con permisos totales"
       },
       "fecha_registro": "2025-10-21"
     },
@@ -378,7 +390,7 @@
       "id": 9,
       "nombre": "Patricia",
       "email": "patricia.gomez@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 2,
         "nombre_rol": "admin",
@@ -390,7 +402,7 @@
       "id": 10,
       "nombre": "David",
       "email": "david.ruiz@educastur.org",
-      "password": "$2a$10$jJLeh6Sw2/w1jn7kgFTkPOaHBpgidVx1KmMX0lz3Z5vDrZKS2Nq3S",
+      "password": "$2a$12$Hahr0tplzVHhNYy40kbyyOtwDKYf.fV0ksmtigdhkIBltRyjwX2Yi",
       "rol": {
         "id": 2,
         "nombre_rol": "admin",
